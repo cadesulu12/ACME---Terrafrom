@@ -1,6 +1,6 @@
 resource "aws_instance"  {
   count         = var.instance_count
-  ami           = "ami-0c55b159cbfafe1f0"  
+  ami           = "ami-09b90e09742640522"  
   instance_type = "t2.micro"  
   subnet_id     = var.subnet_ids[0]  
   key_name      = "ACME-keypair-name"  
